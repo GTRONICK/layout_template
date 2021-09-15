@@ -1,0 +1,12 @@
+<div class="menu">
+    <div class="menu-button" (click)="gbShowSidebar = !gbShowSidebar">
+        <p>BUTTON</p>
+    </div>
+    <app-header class="header"></app-header>
+</div>
+<div class="middle">
+    <app-sidebar class="sidebar"></app-sidebar>
+    <app-sidebar [ngClass]="{'hidden': !gbShowSidebar}" class="sidebar-by-button"></app-sidebar>
+    <app-main class="main"></app-main>
+</div>
+<app-footer class="footer"></app-footer>

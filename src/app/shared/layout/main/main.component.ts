@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  public gobBlocks = Array(30).fill(1);
+
   constructor() { }
 
   ngOnInit(): void {

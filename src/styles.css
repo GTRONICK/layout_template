@@ -11,3 +11,12 @@ html, body {
     flex-direction: column;
     flex-grow: 1;
 }
+
+.block {
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 2rem;
+    min-width: 25%;
+}

@@ -2,7 +2,6 @@
     display: flex;
     flex-grow: 1;
     flex-direction: row;
-    height: 100%;
 }
 
 .menu {
@@ -37,6 +36,8 @@
 
 .main {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border: 4px solid blue;
     flex-grow: 1;
 }
